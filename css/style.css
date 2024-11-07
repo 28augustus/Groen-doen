@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 2px solid rgb(75, 161, 70);
+  padding: 1.06rem;
+}
+
+nav img {
+  width: 3.125rem;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 0 1rem;
+  border-radius: 2rem;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home div img {
+  width: 2.5rem;
+  height: auto;
+}
+
+main img {
+  width: 100%;
+}
+
+.home div:last-of-type img {
+  width: 100%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid rgb(75, 161, 70);
+  background-color: rgb(75, 161, 70);
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 2.125rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+div a {
+  display: flex;
+  background-color: rgb(104, 71, 156);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 1.125rem;
+}
+
+footer {
+  display: flex;
+  border: 1.6rem solid rgb(64, 127, 68);
+  background-color: rgb(64, 127, 68);
+}
